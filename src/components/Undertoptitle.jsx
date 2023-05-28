@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Flex } from "theme-ui";
 
-const Undertopbar = () => {
+const Undertoptitle = () => {
   return (
     <Flex sx={{ alignItems: "center" }}>
       <Button
@@ -173,4 +173,4 @@ const Undertopbar = () => {
   );
 };
 
-export default Undertopbar;
+export default Undertoptitle;

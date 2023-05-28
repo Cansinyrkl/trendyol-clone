@@ -1,13 +1,15 @@
 import React from "react";
 import Topbar from "../components/Topbar";
-import { Box, Flex } from "theme-ui";
-import Undertopbar from "../components/Undertopbar";
+import { Box } from "theme-ui";
+import Undertoptitle from "../components/Undertoptitle";
+import Undergridsupport from "../components/Undergridsupport";
 
 const Home = () => {
   return (
     <Box>
       <Topbar />
-      <Undertopbar />
+      <Undertoptitle />
+      <Undergridsupport />
     </Box>
   );
 };
